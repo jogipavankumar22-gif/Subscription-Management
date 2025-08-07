@@ -1,0 +1,15 @@
+[package]
+name = "SubscriptionManagement"
+version = "1.0.0"
+authors = []
+
+[addresses]
+pavan_addr="873b9dad308332ae35ad4eb48a0e42af7eb36b0f682201d56741b7fed94041a0"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
